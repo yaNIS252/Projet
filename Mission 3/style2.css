@@ -5,7 +5,6 @@ body{
 }
 
 div{
-    align-items: center;
     background-color: rgb(235, 155, 64);
     margin-top: 220px;
     padding: 10px;
@@ -14,8 +13,7 @@ div{
     text-align: center;
     width: 300px;
     border: 2px solid #000000;
-    justify-content: center;
-    align-content: center;
+    
 }
 
 
