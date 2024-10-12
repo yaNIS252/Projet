@@ -1,0 +1,177 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+nav{
+    background-color: rgb(132, 131, 131);
+}
+
+
+
+
+nav > ul > li {
+    
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    
+
+}
+
+
+
+nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.lien{
+    display: none;
+}
+
+.lien :hover{
+    background-color: coral;
+    font-size: 19px ;
+}
+
+
+.Menu {
+   display: none; 
+}
+
+
+
+nav > ul > li > ul {
+    
+    list-style-type: none;
+    position: absolute top left;
+}
+
+
+
+
+nav ul > li a {
+    color: rgb(195, 11, 11);
+    border: solid 5px rgb(132, 131, 131);
+    background-color: rgb(170, 167, 167);
+    text-decoration: none;
+    float: left;
+    padding: 20px 40px;
+    
+}
+
+
+nav ul > li :hover a{
+    display: inline-block;
+    padding: 15px 30px 20px 30px ;
+}
+
+
+nav ul li:hover .lien{
+    position: absolute ;
+    z-index: 100;
+    display: inline-block;
+    top: 100%;
+    left: 0px;
+
+}
+
+
+
+
+
+
+.HTML{
+    border: solid 5px rgb(132, 131, 131);
+    background-color: rgb(170, 167, 167);
+    
+    
+}
+
+
+
+
+.Java{
+    border: solid 5px rgb(132, 131, 131);
+    background-color: rgb(170, 167, 167);
+
+}
+
+
+
+.BDD{
+    border: solid 5px rgb(132, 131, 131);
+    background-color: rgb(170, 167, 167);
+
+}
+
+
+
+.PHP{
+    border: solid 5px rgb(132, 131, 131);
+    background-color: rgb(170, 167, 167);
+
+}
+
+
+
+.Mission{
+    border: solid 5px rgb(132, 131, 131);
+    background-color: rgb(170, 167, 167);
+
+}
+
+
+
+.Certifications{
+    border: solid 5px rgb(132, 131, 131);
+    background-color: rgb(170, 167, 167);
+
+}
+
+
+
+
+
+nav input [type=checkbox] :checked ~ ul{
+    display: block;
+}
+
+@media screen and (max-width: 680px;(){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

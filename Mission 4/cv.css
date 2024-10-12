@@ -1,0 +1,321 @@
+ {
+    
+}
+
+
+
+body{
+    background-color: rgb(165, 190, 248);
+    font-size: 16px;
+    text-align: left;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+div{
+    margin: 20px;
+}
+
+.global{
+    border: 5px solid #3388CC;
+    border-radius: 5px ;
+    margin: auto;
+    width: 780px;
+    box-shadow: 6px 6px 100px rgb(80, 80, 80);
+}
+
+
+
+
+
+.debut{
+    border: solid black;
+}
+
+.présentation{
+    
+    height: 100%;
+    border: 10px black;
+    border-radius: 1px;
+}
+
+
+.img{
+    
+    height: 10px;
+    float: right;
+    margin-top: 15px;
+    
+}
+
+
+
+
+
+
+
+
+.for{
+    border: solid 5px black;
+}
+
+
+.datefor{
+    
+    float: left;
+
+}
+
+
+.nomfor{
+    
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+.expro{
+    border: solid 5px black;
+
+}
+
+
+.dateexp{
+    
+}
+
+
+.nomexp{
+    
+    float: right;
+    margin-top: 0px;
+    padding-right: 250px;
+}
+
+
+
+
+
+
+
+.langue{
+    border: solid 5px black;
+}
+
+
+.languenom{
+    
+}
+
+
+.languesuite{
+    
+    float: right;
+    margin-top: 15px;
+    padding-right: 430px;
+}
+
+
+
+
+
+
+.autre{
+    border: solid 5px black;
+
+}
+
+.dateautre{
+    
+}
+
+
+.nomautre{
+    
+    float: right;
+    margin-top: 20px;
+    padding-right: 330px;
+}
+
+
+
+
+
+
+
+button{
+    align-items: center;
+    border: #3388CC;
+    border-radius: 1px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width :768px);
+ 
+
+
+
+
+    body{
+        background-color: rgb(165, 190, 248);
+        font-size: 16px;
+        text-align: left;
+    }
+    
+    h3{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    div{
+        margin: 20px;
+    }
+    
+    .global{
+        border: 5px solid #3388CC;
+        border-radius: 5px ;
+        margin: auto;
+        width: 780px;
+        box-shadow: 6px 6px 100px rgb(80, 80, 80);
+    }
+    
+    
+    
+    
+    
+    .debut{
+        border: solid black;
+    }
+    
+    .présentation{
+        
+        height: 100%;
+        border: 10px black;
+        border-radius: 1px;
+    }
+    
+    
+    .img{
+        
+        height: 10px;
+        float: right;
+        margin-top: 15px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .for{
+        border: solid 5px black;
+    }
+    
+    
+    .datefor{
+        
+        float: left;
+    
+    }
+    
+    
+    .nomfor{
+        
+        margin-top: 40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .expro{
+        border: solid 5px black;
+    
+    }
+    
+    
+    .dateexp{
+        
+    }
+    
+    
+    .nomexp{
+        
+        float: right;
+        margin-top: 0px;
+        padding-right: 250px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .langue{
+        border: solid 5px black;
+    }
+    
+    
+    .languenom{
+        
+    }
+    
+    
+    .languesuite{
+        
+        float: right;
+        margin-top: 15px;
+        padding-right: 430px;
+    }
+    
+    
+    
+    
+    
+    
+    .autre{
+        border: solid 5px black;
+    
+    }
+    
+    .dateautre{
+        
+    }
+    
+    
+    .nomautre{
+        
+        float: right;
+        margin-top: 20px;
+        padding-right: 330px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    button{
+        align-items: center;
+        border: #3388CC;
+        border-radius: 1px;
+    }

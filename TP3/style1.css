@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 157, 113);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h1{
+    color: black;
+
+}
+
+form{
+    background-color: antiquewhite;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(229, 170, 170);
+
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+input[type="text"], input[type="email"], textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid wheat;
+    border-radius: 3px;
+
+}
+
+input[type="submit"]{
+    background-color: rgb(232, 180, 138);
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor:pointer;
+
+}
+
+input[type="submit"]:hover{
+    background-color: crimson;
+}
