@@ -38,15 +38,9 @@ nav > ul::after {
 }
 
 .lien :hover{
-    background-color: coral;
+    background-color: rgb(231, 133, 133);
     font-size: 19px ;
 }
-
-
-.Menu {
-   display: none; 
-}
-
 
 
 nav > ul > li > ul {
@@ -59,7 +53,7 @@ nav > ul > li > ul {
 
 
 nav ul > li a {
-    color: rgb(195, 11, 11);
+    color: rgb(157, 107, 236);
     border: solid 5px rgb(132, 131, 131);
     background-color: rgb(170, 167, 167);
     text-decoration: none;
@@ -130,7 +124,6 @@ nav ul li:hover .lien{
 }
 
 
-
 .Certifications{
     border: solid 5px rgb(132, 131, 131);
     background-color: rgb(170, 167, 167);
@@ -139,39 +132,34 @@ nav ul li:hover .lien{
 
 
 
-
-
-nav input [type=checkbox] :checked ~ ul{
-    display: block;
+.Menu{
+    display: none;
 }
 
-@media screen and (max-width: 680px;(){
-    
+.Menuu {
+    display: none;
 }
 
 
 
+@media screen and (max-width: 680px){
 
 
+    .Menu{
+        display: block;
+        color: rgb(0, 0, 0);
+        background-color: rgba(29, 197, 157, 0.97);
+        text-align: center;
+        padding: 12px 0;
 
+    }
+    nav ul{
+        display: none;
+    }
 
+    input[type="checkbox"]:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
