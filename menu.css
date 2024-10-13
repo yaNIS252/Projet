@@ -140,6 +140,10 @@ nav ul li:hover .lien{
     display: none;
 }
 
+input[type="checkbox"]:checked ~ ul {
+    display: block;
+}
+
 
 
 @media screen and (max-width: 680px){
@@ -150,16 +154,13 @@ nav ul li:hover .lien{
         color: rgb(0, 0, 0);
         background-color: rgba(29, 197, 157, 0.97);
         text-align: center;
-        padding: 12px 0;
-
+        padding: 10px 0px;
     }
+
+    
     nav ul{
         display: none;
     }
 
-    input[type="checkbox"]:checked ~ ul {
-        display: flex;
-        flex-direction: column;
-    }
 
 }
