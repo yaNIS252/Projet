@@ -30,6 +30,24 @@ function multiplication(){
     t3.value = c;
 }
 
+function permute(){
+    var v3 = "";
+    a = document.getElementById("t1").value;
+    b = document.getElementById("t2").value;
+    v3 = a
+    a = b
+    b = v3
+
+    t1.value = a;
+    t2.value = b;
+}
+
 function parite(){
-    
+    var v;
+    v = Number(document.getElementById("t3").value);
+    if(v%2==0)
+    t4.value = ("Pair")
+    else
+    t4.value = ("Impair")
+
 }
