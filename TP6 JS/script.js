@@ -61,23 +61,26 @@ function connect3(){
     
 }
 
-function ajout(){
-    (window.location.href="ajout.html")
-}
+
 
 
 
 function ajouter(){
-    var nom=document.getElementById("t1").value;
-    var age=document.getElementById("t2").value;
+    var a=document.getElementById("t1").value;
+    var b=document.getElementById("t2").value;
     if (a==""||b==""){alert("Un Champs est Vide");}
-    else if ((Number(b)<10||Number(b)<20)){alert("Äge invalide");}
+    else if ((Number(b)<10 ||Number(b)>20)){alert("Äge invalide");}
     else{
-        var table=document.getElementById(table);
-        var newRow=table.insertRow (-1);
-        var cell1=newRow.insertCell (0);
-        var cell2=newRow.insertCell (1);
-        cell1.insertHTML=document.getElementById("t1").value;
-        cell2.insertHTML=document.getElementById("t2").value;
+        var table=document.getElementById("mytable");
+        var newRow=table.insertRow(-1);
+        var cell1=newRow.insertCell(0);
+        var cell2=newRow.insertCell(1);
+
+        cell1.innerHTML=document.getElementById("t1").value;
+        cell2.innerHTML=document.getElementById("t2").value;
     }
+}
+
+function ajout(){
+    (window.location.href="ajout.html")
 }
