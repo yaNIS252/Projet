@@ -6,7 +6,7 @@
 
 body{
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(to right, #702c7e, #990ac5);
+    background: linear-gradient(to right, #a1a7b9, #625e63);
     color: white;   
 }
 
@@ -23,12 +23,12 @@ hr{
 
 
 header{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
     width: 100%;
-    height: 120px;
-    background: linear-gradient(#836694, #a76db8);
-    border-bottom: 5px solid rgba(96, 71, 117, 0.514);
+    height: 100px;
+    background: linear-gradient(#403d41, #989598);
+    
     
 }
 
@@ -56,10 +56,10 @@ h2{
     justify-content: space-between;
     flex-direction: column;
     padding: 30px;
-    background-color: rgba(225, 78, 255, 0.4);
+    background-color: rgba(97, 94, 98, 0.4);
 }
 
-.Somme {
+.Exos {
     border: 2px solid white;
     border-radius: 25px;
     padding: 40px;
@@ -68,29 +68,14 @@ h2{
     
 }
 
-.Afficher{
-    border: 2px solid white;
-    border-radius: 25px;
-    margin: 30px;
-    padding: 40px;
-    background-color: rgba(255, 255, 255, 0.4) ;
-}
 
-
-.Trouver{
-    border: 2px solid white;
-    border-radius: 25px;
-    margin: 30px;
-    padding: 40px;
-    background-color: rgba(255, 255, 255, 0.4) ;
-}
 
 
 
 button{
     margin-top: 40px;
     margin-right: 30px;
-    background-color: #b994e9;
+    background-color: #9e9ba2;
     border-radius: 40px;
     width: 170px;
     height: 45px;
@@ -101,7 +86,7 @@ button{
 }
 
 button:hover{
-    background:#eeaeca;
+    background:#ecdbe2;
     transition: 150ms;
     color: rgb(255, 255, 255);
     
